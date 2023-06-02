@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Interclasse</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- awesome fontfamily -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/peixonauta.gif" alt="" /></div>
+      </div>
+      <!-- end loader -->
+      <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a class="active" href="a.html">Página Inicial</a>
+         <a href="b.html">Anos Anteriores</a>
+         <a href="c.html">Esportes de Destaque</a>
+         <a href="d.html">Outras Modalidades</a>
+         <a href="e.html">Contato</a>
+      </div>
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="head-top">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-sm-3">
+                     <div class="logo">
+                        <a href="index.html"><img src="images/logo14.png" /></a>
+                     </div>
+                  </div>
+                  <div class="col-sm-9">
+                     <ul class="email text_align_right">
+                        <li><a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                        <li><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        <li> <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header -->
+      <!-- start slider section -->
+      <div  class=" banner_main">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="club">
+                     <figure><img class="sm_n0" src="images/bbnner.png"> <img class="tes_n0" src="images/banner1.jpg"> </figure>
+                     <div class="poa_t">
+                        <h1>INTERCLASSE</h1>
+						<br>
+                        <p>Conheça um pouco sobre os esporte mais comuns no Torneio Interclasse.</p>
+                        <p>E também sobre aqueles que não fazem parte.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end slider section -->
+      <div class="footbol">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <div class="foot_img">
+                                       <figure><img src="images/volei.png" alt="#"/></figure>
+                                    </div>
+                                    <a class="read_more" href="Javascript:void(0)">Leia Mais </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <div class="foot_img">
+                                       <figure><img src="images/basque.png" alt="#"/></figure>
+                                    </div>
+                                    <a class="read_more" href="Javascript:void(0)">Leia Mais </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <div class="foot_img">
+                                       <figure><img src="images/foot.png" alt="#"/></figure>
+                                    </div>
+                                    <a class="read_more" href="Javascript:void(0)">Leia Mais </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- sports -->
+      <div class="sports">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage text_align_center">
+                     <h2>ESPORTES POPULARES</h2>
+                     <p>Você sabe quais são os esportes mais praticados no Brasil? Além dos mais conhecidos, como o Futebol e o Vôlei, grande parte da população brasileira tem a oportunidade de praticar outros esportes; veja quais são os 10 esportes mais contemplados pelos brasileiros:</p>
+                     <h1>Futebol</h1>
+                        <p>Cerca de 30,4 milhões de pessoas jogam futebol no país.</p>
+                     <h1>Vôlei</h1>
+                        <p>No Brasil, estima-se que cerca de 15,3 milhões de pessoas jogam vôlei.</p>
+                     <h1>Tênis de Mesa</h1>
+                        <p>Outro esporte popular no Brasil é o tênis de mesa, praticado por algo em torno de 12 milhões de pessoas.</p>
+                     <h1>Natação</h1>
+                       <p>É estimado que 11 milhões de pessoas praticam a natação em todo o país.</p>
+                     <h1>Futsal</h1>
+                       <p>Praticado por mais de 10 milhões de pessoas, o futsal é o quinto colocado da lista.</p>
+                     <h1>Capoeira</h1>
+                       <p>Mais do que um esporte. Hoje, estima-se que cerca de 6 milhões de pessoas praticam o esporte pelo país.</p>
+                     <h1>Skate</h1>
+                       <p>Praticado por cerca de 2,7 milhões de pessoas, o skate ganhou as ruas das grandes cidades brasileiras.</p>
+                     <h1>Surfe</h1>
+                       <p>O surfe é praticado por 2,4 milhões de pessoas. Outra prática esportiva que ganhou o coração dos brasileiros, especialmente daqueles que vivem no litoral.</p>
+                     <h1>Judô</h1>
+                       <p>Praticado por mais de 2 milhões de pessoas, o judô é outra arte marcial muito praticada no Brasil.</p>
+                     <h1>Atletismo</h1>
+                       <p>É estimado que mais de 2 milhões de brasileiros praticam o atletismo de forma regular, independentemente da modalidade.</p>
+                     <a class="read_more" href="https://hotmart.com/pt-br/aprenda/esportes-mais-praticados-no-brasil" target="_blank">Leia Mais</a>
+                  </div>
+               </div>
+            </div>
+            <div class="row d_flex">
+               <div class="col-md-3">
+                  <div class="sports_main text_align_center">
+                     <figure><img  src="images/sport1.png" alt="#"/></figure>
+                     <div class="sports_text">
+                        <h3>Surfe</h3>
+                        <p>Gabriel Medina Pinto Ferreira é um surfista profissional brasileiro. Foi tri-campeão mundial de surfe da ASP World Tour de 2014, 2018 e 2021, sendo o primeiro brasileiro a vencer um mundial de Surfe.</p>
+                        <a class="read_more" href="https://www.infoescola.com/esportes-radicais/surfe/" target="_blank">Leia Mais</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="sports_main text_align_center">
+                     <figure><img class="dorder" src="images/sport2.png" alt="#"/></figure>
+                     <div class="sports_text">
+                        <h3 class="dark3">Capoeira</h3>
+                        <p>A capoeira é uma expressão cultural brasileira que compreende os elementos: arte-marcial, esporte, cultura popular, dança e música. Desenvolvida no Brasil por descendentes de escravos africanos possivelmente no final do século XVI.</p>
+                        <a class="read_more" href="https://www.todamateria.com.br/capoeira/" target="_blank">Leia Mais</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="sports_main text_align_center">
+                     <figure><img src="images/sport3.png" alt="#"/></figure>
+                     <div class="sports_text">
+                        <h3>Skate</h3>
+                        <p>Jhulia Rayssa Mendes Leal, mais conhecida como Rayssa Leal, é uma skatista brasileira, vice-campeã olímpica, medalhista de ouro nos X-Games e campeã mundial de 2022.</p>
+                        <a class="read_more" href="https://www.princeofstreets.com.br/blog/historia-do-skate-no-brasil-e-no-mundo/" target="_blank">Leia Mais</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end sports -->
+      <!-- about -->
+      <div class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>SELEÇÃO BRASILEIRA DE VÔLEI</h2>
+                     <p>A Seleção Feminina de Vôlei teve, ao longo do tempo, cinco medalhas conquistadas em Olimpíadas — dois ouros (Pequim-2008 e Londres-2012), uma prata (Tóquio-2020) e dois bronzes (Atlanta-1996 e Sydney-2000).</p>
+
+                     <p>A Seleção Masculina pôde conquistar três medalhas de ouro (Barcelona-1992, Atenas-2004 e Rio de Janeiro-2016) e três medalhas de prata (Los Angeles-1984, Pequim-2008 e Londres-2012), totalizando seis medalhas olímpicas.</p>
+
+                     <p>O Brasil ganhou 24 medalhas olímpicas no vôlei, sendo 13 medalhas no vôlei de praia e 11 no vôlei de quadra. No voleibol de praia o Brasil conquistou 3 medalhas de ouro, 7 de prata e 3 de bronze; já no voleibol de quadra foram 5 medalhas de ouro, 4 de prata e 2 de bronze.</p>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <div class="about_img">
+                     <figure><img class="img_responsive" src="images/01.png" alt="#"/></figure>
+                     <br>
+                     <figure><img class="img_responsive" src="images/02.png" alt="#"/></figure>
+                     <div class="abo_btn">
+          
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end about -->
+      <!-- trannir -->
+      <div class="trannir">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>ESPORTE NAS ESCOLAS</h2>
+                     <p>O Torneio Interclasse proporciona o maior contato com o esporte no período escolar</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row d_flex">
+               <div class="col-lg-10 offset-lg-1 col-md-12">
+                  <div id="testimo" class="carousel slide our_trannir" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimo" data-slide-to="1"></li>
+                        <li data-target="#testimo" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="trannir_text">
+                                    <i><img src="images/imagem1.jpeg" alt="#"/></i>
+                                    <h3>Interclasse de 2019</h3>
+                                    <br>
+                                    <span>Foto com os alunos do SESI 081 segurando as bandeiras e os mascotes de seus respectivos países.</span>
+                                    <ul class="social_icon text_align_center">
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="trannir_text">
+                                    <i><img src="images/imagem09.jpeg" alt="#"/></i>
+                                    <h3>Interclasse de 2018</h3>
+                                    <br>
+                                    <span>Uma das modalidades do torneio é o Cabo de Guerra.</span>
+                                    <ul class="social_icon text_align_center">
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="trannir_text">
+                                    <i><img src="images/imagem17.jpeg" alt="#"/></i>
+                                    <h3>Acesso ao Esporte</h3>
+                                    <br>
+                                    <span>É muito importante as escolas oferecerem</span>
+                                    <ul class="social_icon text_align_center">
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end trannir -->
+  
+      <!-- footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 offset-md-2">
+                     <h3>NOS SIGA</h3>
+                     <ul class="social_icon text_align_center">
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                     </ul>
+                     <div class="conta text_align_center">
+                        <ul>
+                           <li> <a href="Javascript:void(0)"><img src="images/call.png" alt="#"/> TEL: (11) 99999-9999
+                              </a>
+                           </li>
+                           <li> <a href="Javascript:void(0)"><img src="images/mall.png" alt="#"/> exemplo@gmail.com
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-8 offset-md-2">
+                     <div class="menu_bottom text_align_center">
+                        <ul>
+                           <li><a href="a.html">Página Inicial</a></li>
+                           <li><a href="b.html">Anos Anteriores</a></li>
+                           <li><a href="c.html">Esportes de Destaque</a></li>
+                           <li><a href="d.html">Outras Modalidades</a></li>
+                           <li><a href="e.html">Contato</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright text_align_center">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-8 offset-md-2">
+                        <p>© 2023 TODOS DIREITOS RESERVADOS </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
